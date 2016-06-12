@@ -1,0 +1,36 @@
+﻿header, nav, section, footer {
+    font-family: Verdana;
+    display: block;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    box-shadow: lightgrey 3px 3px;
+    text-shadow: lightgrey 1px 1px;
+    border-radius: 3px;
+}
+
+body {
+    background: #ded8ff;
+    background: -moz-linear-gradient(left, #ded8ff 0%, #ffffff 50%, #ded8ff 100%);
+    background: -webkit-linear-gradient(left, #ded8ff 0%,#ffffff 50%,#ded8ff 100%);
+    background: linear-gradient(to right, #ded8ff 0%,#ffffff 50%,#ded8ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ded8ff', endColorstr='#ded8ff',GradientType=1 );
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: gray;
+}
+
+footer {
+    text-align: center;
+}
